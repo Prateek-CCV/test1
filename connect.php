@@ -1,8 +1,8 @@
 <?php
-$hostname="aa86pwj3qsgqio.c2u0hj6ejqek.us-east-1.rds.amazonaws.com"; //local server name default localhost
+$hostname="aa1uf8kyfrujymt.c2u0hj6ejqek.us-east-1.rds.amazonaws.com"; //local server name default localhost
 $username="admin";  //mysql username default is root.
-$password="Ideapad@330";       //blank if no password is set for mysql.
-$database="aa86pwj3qsgqio";  //database name which you created
+$password="Ideapad330";       //blank if no password is set for mysql.
+$database="aa1uf8kyfrujymt";  //database name which you created
 $con=mysql_connect($hostname,$username,$password);
 if(! $con)
 {
